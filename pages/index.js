@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import ShopItem from '@/components/ShopItem';
+import Footer from '@/components/Footer';
 
 import { homepageData } from '@/data';
 
@@ -99,6 +100,7 @@ export default function Home() {
           best place to buy your portable audio equipment.
         </p>
       </section>
+      <Footer />
     </main>
   );
 }
