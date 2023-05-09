@@ -19,3 +19,26 @@ export const homepageData = [
     img: earphonesHomeImg,
   },
 ];
+
+export const navLinks = [
+  {
+    id: 0,
+    title: 'Home',
+    href: '/',
+  },
+  {
+    id: 1,
+    title: 'Headphones',
+    href: '/headphones',
+  },
+  {
+    id: 2,
+    title: 'Speakers',
+    href: '/speakers',
+  },
+  {
+    id: 3,
+    title: 'Earphones',
+    href: '/earphones',
+  },
+];
