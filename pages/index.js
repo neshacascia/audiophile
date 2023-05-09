@@ -9,13 +9,13 @@ export default function Home() {
     <main className="bg-white h-screen mx-6">
       <header className="bg-homeHeader bg-cover bg-no-repeat bg-bottom h-screen -mx-6">
         <div className="text-white h-screen flex flex-col justify-center items-center">
-          <span className="opacity-[0.5] text-sm tracking-[10px] uppercase mb-4">
+          <span className="opacity-50 text-sm tracking-[10px] uppercase mb-4">
             New Product
           </span>
           <h1 className="font-bold text-4xl text-center tracking-[1.28571px] uppercase mb-6">
             XX99 Mark II Headphones
           </h1>
-          <p className="font-light text-center leading-[25px] opacity-[0.75] w-[328px] mb-[28px]">
+          <p className="font-light text-center leading-[25px] opacity-75 w-[328px] mb-[28px]">
             Experience natural, lifelike audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
@@ -48,7 +48,7 @@ export default function Home() {
           <span className="text-4xl font-bold tracking-[1.28px] uppercase mt-8">
             ZX9 Speaker
           </span>
-          <p className="text-[15px] font-light text-center opacity-[0.75] my-6">
+          <p className="text-[15px] font-light text-center opacity-75 my-6">
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </p>
@@ -91,7 +91,7 @@ export default function Home() {
           Bringing you the <span className="text-fadedOrange">best</span> audio
           gear
         </h2>
-        <p className="text-[15px] font-light leading-[25px] text-center opacity-[0.5]">
+        <p className="text-[15px] font-light leading-[25px] text-center opacity-50">
           Located at the heart of New York City, Audiophile is the premier store
           for high end headphones, earphones, speakers, and audio accessories.
           We have a large showroom and luxury demonstration rooms available for

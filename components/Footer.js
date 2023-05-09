@@ -26,14 +26,14 @@ export default function Footer() {
         ))}
       </ul>
 
-      <p className="text-[15px] font-light leading-[25px] text-center opacity-[0.5]">
+      <p className="text-[15px] font-light leading-[25px] text-center opacity-50">
         Audiophile is an all in one stop to fulfill your audio needs. We're a
         small team of music lovers and sound specialists who are devoted to
         helping you get the most out of personal audio. Come and visit our demo
         facility - we’re open 7 days a week.
       </p>
 
-      <span className="text-[15px] font-medium tracking-[0.3px] opacity-[0.5]">
+      <span className="text-[15px] font-medium tracking-[0.3px] opacity-50">
         Copyright 2021. All Rights Reserved
       </span>
 
