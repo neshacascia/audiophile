@@ -19,7 +19,7 @@ export default function Home() {
             Experience natural, lifelike audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
-          <button className="bg-fadedOrange text-[13px] font-medium tracking-[1px] uppercase py-4 px-9">
+          <button className="bg-fadedOrange text-[13px] font-medium tracking-[1px] uppercase py-4 px-9 hover:bg-lightFadedOrange">
             See Product
           </button>
         </div>
@@ -52,7 +52,7 @@ export default function Home() {
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </p>
-          <button className="bg-black text-[13px] font-medium tracking-[1px] uppercase py-4 px-9">
+          <button className="bg-black text-[13px] font-medium tracking-[1px] uppercase py-4 px-9 hover:text-white hover:bg-[#686868ea]">
             See Product
           </button>
         </div>
@@ -62,7 +62,7 @@ export default function Home() {
             ZX7 Speaker
           </span>
 
-          <button className="text-[13px] font-medium tracking-[1px] uppercase border-black border-[1px] py-4 px-9">
+          <button className="text-[13px] font-medium tracking-[1px] uppercase border-black border-[1px] py-4 px-9 hover:text-white hover:bg-black">
             See Product
           </button>
         </div>
@@ -72,7 +72,7 @@ export default function Home() {
           <span className="text-[28px] font-bold tracking-[2px] uppercase">
             YX1 Earphones
           </span>
-          <button className="text-[13px] font-medium tracking-[1px] uppercase border-black border-[1px] py-4 px-9">
+          <button className="text-[13px] font-medium tracking-[1px] uppercase border-black border-[1px] py-4 px-9 hover:text-white hover:bg-black">
             See Product
           </button>
         </div>

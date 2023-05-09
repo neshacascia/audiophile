@@ -12,8 +12,11 @@ export default function ShopItem({ item, href, img }) {
           {item}
         </span>
 
-        <Link href={href} className="flex items-center gap-3">
-          <span className="text-[13px] font-bold tracking-[1px] uppercase opacity-[0.5]">
+        <Link
+          href={href}
+          className="text-gray-500 flex items-center gap-3 hover:text-fadedOrange"
+        >
+          <span className="text-[13px] font-bold tracking-[1px] uppercase hover:text-fadedOrange">
             Shop
           </span>
           <FontAwesomeIcon

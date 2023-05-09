@@ -19,7 +19,9 @@ export default function Footer() {
       <ul className="text-[13px] font-medium tracking-[2px] uppercase flex flex-col justify-center items-center gap-4">
         {navLinks.map(link => (
           <li key={link.id}>
-            <Link href={link.href}>{link.title}</Link>
+            <Link href={link.href} className="hover:text-fadedOrange">
+              {link.title}
+            </Link>
           </li>
         ))}
       </ul>
@@ -37,13 +39,22 @@ export default function Footer() {
 
       <div className="text-2xl flex gap-4 mb-[38px]">
         <a href="#">
-          <FontAwesomeIcon icon={faSquareFacebook}></FontAwesomeIcon>
+          <FontAwesomeIcon
+            icon={faSquareFacebook}
+            className="hover:text-fadedOrange"
+          ></FontAwesomeIcon>
         </a>
         <a href="#">
-          <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+          <FontAwesomeIcon
+            icon={faTwitter}
+            className="hover:text-fadedOrange"
+          ></FontAwesomeIcon>
         </a>
         <a href="#">
-          <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+          <FontAwesomeIcon
+            icon={faInstagram}
+            className="hover:text-fadedOrange"
+          ></FontAwesomeIcon>
         </a>
       </div>
     </footer>
