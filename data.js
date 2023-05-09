@@ -7,18 +7,15 @@ export const homepageData = [
     item: 'Headphones',
     href: '/headphones',
     img: headphonesHomeImg,
-    bottom: '10',
   },
   {
     item: 'Speakers',
     href: '/speakers',
     img: speakersHomeImg,
-    bottom: '10',
   },
   {
     item: 'Earphones',
     href: '/earphones',
     img: earphonesHomeImg,
-    bottom: '10',
   },
 ];
