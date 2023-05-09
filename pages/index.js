@@ -26,12 +26,17 @@ export default function Home() {
       <section className="flex flex-col gap-20 my-20">
         {homepageData.map(item => (
           <ShopItem
+            key={item.name}
             item={item.item}
             href={item.href}
             img={item.img.src}
             bottom={item.bottom}
           />
         ))}
+      </section>
+
+      <section className="my-[100px]">
+        <div className="bg-fadedOrange"></div>
       </section>
     </main>
   );
