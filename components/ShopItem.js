@@ -5,7 +5,7 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 export default function ShopItem({ item, href, img, bottom }) {
   return (
-    <div className="bg-lightGrey flex flex-col justify-center items-center rounded-lg">
+    <div className="bg-lightGrey flex flex-col justify-center items-center relative rounded-lg">
       <img src={img} className={`w-[79.92px] relative bottom-${bottom}`} />
       <div className="text-black flex flex-col items-center relative bottom-4">
         <span className="text-[15px] font-bold tracking-[1.07px] uppercase mb-4">

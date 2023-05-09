@@ -7,13 +7,13 @@ export const homepageData = [
     item: 'Headphones',
     href: '/headphones',
     img: headphonesHomeImg,
-    bottom: '12',
+    bottom: '10',
   },
   {
     item: 'Speakers',
     href: '/speakers',
     img: speakersHomeImg,
-    bottom: '12',
+    bottom: '10',
   },
   {
     item: 'Earphones',
